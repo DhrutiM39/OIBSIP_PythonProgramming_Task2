@@ -18,7 +18,7 @@ To create a real-time weather monitoring application using the OpenWeatherMap AP
 ---
 
 ## 📝 Steps Performed
-1. **Configured API Communication** — Created `api_handler.py` to send asynchronous HTTP requests to OpenWeatherMap's Geocoding, Current Weather, and 5-Day Forecast endpoints.
+1. **Configured API Communication** — Created `api_handler.py` to handle HTTP requests to OpenWeatherMap's Geocoding, Current Weather, and 5-Day Forecast endpoints.
 2. **Built the GUI Dashboard** — Designed a cards-based Tkinter GUI in `gui.py` with custom styles defined in `design_system.py`.
 3. **Programmed Dynamic Theming** — Added logic to update background and card color gradients depending on the weather status returned (clear sky, rain, snow, thunder, clouds).
 4. **Added Units & Calculations** — Implemented unit swapping (Celsius/Fahrenheit) and calculated local time transformations from UTC offsets to compute localized sunrise/sunset times.
