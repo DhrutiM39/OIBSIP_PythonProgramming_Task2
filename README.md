@@ -44,7 +44,14 @@ To create a real-time weather monitoring application using the OpenWeatherMap AP
 
 ## 🚀 Setup
 
-### 1. Get a Free OpenWeatherMap API Key
+### 1. Clone the Repository
+```bash
+git clone https://github.com/DhrutiM39/OIBSIP_PythonProgramming_Task2.git
+cd OIBSIP_PythonProgramming_Task2
+python main.py
+```
+
+### 2. Get a Free OpenWeatherMap API Key
 
 1. Visit [OpenWeatherMap](https://openweathermap.org/api)  
 2. Click **Sign Up** (or **Sign In** if you have an account)  
@@ -52,13 +59,13 @@ To create a real-time weather monitoring application using the OpenWeatherMap AP
 4. Go to **API keys** section in your account dashboard  
 5. Copy your **Default API Key** (it's already generated for you)  
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install requests python-dotenv
 ```
 
-### 3. Create the `.env` File
+### 4. Create the `.env` File
 
 In the project root directory, create a file named `.env` and add your API key:
 
@@ -73,7 +80,7 @@ OPENWEATHER_API_KEY=your_api_key_here
 
 ⚠️ **Important:** Never commit the `.env` file to GitHub. It's already in `.gitignore`.
 
-### 4. Run the Application
+### 5. Run the Application
 
 ```bash
 python main.py
